@@ -2,7 +2,7 @@
 <html>
 
     <head>
-        <title> Multi Markers AR - Playing the Archive - CASA UCL</title>
+        <title>FarmAR - Demo</title>
         <meta name="description" content="FarmAR - Demo">
         <script src="https://aframe.io/releases/0.9.2/aframe.min.js"></script>
         <script
@@ -20,7 +20,7 @@
             <a-marker emitevents="true" id="logo-marker" type="pattern"
                 url="markers/pattern-marker.patt" cursor="rayOrigin: mouse"
                 markerhandler>
-                <a-image id="test" src="#indicator" position="0 0 -1" rotation="-90 0 0" opacity="1" shader="standard" width="1" height="1.5" scale="2 2"></a-image>
+                <a-image id="test" src="#indicator" position="0 0 -1" rotation="-90 0 0" opacity="1" shader="standard" width="1" height="1.5" scale="2 2" animation="property: position; to: 0 0 -3; direction: alternate; easing: linear; loop: true"></a-image>
             </a-marker>
 
             <a-entity id='userCamera' camera>

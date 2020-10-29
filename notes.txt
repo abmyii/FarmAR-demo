@@ -4,7 +4,17 @@ https://github.com/AR-js-org/AR.js/blob/master/three.js/examples/nft.html
 
 
 Images:
+https://aframe.io/docs/1.0.0/primitives/a-image.html#attributes_transparent
 https://stackoverflow.com/questions/51941580/trying-to-use-ar-js-to-display-jpeg-image-and-only-when-a-button-is-clicked
+
 
 Animations and cursor visual feedback:
 https://codepen.io/Absulit/pen/WEKjqm?editors=1000
+
+
+Animation start/end condition (clicking on object):
+https://stackoverflow.com/questions/52705373/aframe-animation-start-end-condition
+
+
+Animation callback function:
+https://stackoverflow.com/questions/37695719/is-there-any-callback-function-in-aframe-a-animation
