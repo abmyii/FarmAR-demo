@@ -11,12 +11,16 @@
     </head>
 
     <body style="margin : 0px; overflow: hidden;">
+        <a-assets>
+            <img id="indicator" src="ui/indicator.png">
+          </a-assets>
+
         <a-scene embedded arjs='trackingMethod: best; patternRatio: 0.9;
             debugUIEnabled: false; maxDetectionRate:30;' antialias="true">
             <a-marker emitevents="true" id="logo-marker" type="pattern"
                 url="markers/pattern-marker.patt" cursor="rayOrigin: mouse"
                 markerhandler>
-                <a-image id="test" src="ui/indicator.png" position="0 0 -1" rotation="-90 0 0" opacity="1" shader="standard" scale="1.5 1.5"></a-image>
+                <a-image id="test" src="#indicator" position="0 0 -1" rotation="-90 0 0" opacity="1" shader="standard" width="1" height="1.5" scale="2 2"></a-image>
             </a-marker>
 
             <a-entity id='userCamera' camera>

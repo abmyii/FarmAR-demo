@@ -5,3 +5,6 @@ https://github.com/AR-js-org/AR.js/blob/master/three.js/examples/nft.html
 
 Images:
 https://stackoverflow.com/questions/51941580/trying-to-use-ar-js-to-display-jpeg-image-and-only-when-a-button-is-clicked
+
+Animations and cursor visual feedback:
+https://codepen.io/Absulit/pen/WEKjqm?editors=1000
