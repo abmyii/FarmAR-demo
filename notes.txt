@@ -1,0 +1,7 @@
+Could use NFT for image tracking instead of a marker:
+https://ar-js-org.github.io/AR.js-Docs/image-tracking/
+https://github.com/AR-js-org/AR.js/blob/master/three.js/examples/nft.html
+
+
+Images:
+https://stackoverflow.com/questions/51941580/trying-to-use-ar-js-to-display-jpeg-image-and-only-when-a-button-is-clicked
