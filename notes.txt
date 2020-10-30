@@ -8,6 +8,12 @@ https://aframe.io/docs/1.0.0/primitives/a-image.html#attributes_transparent
 https://stackoverflow.com/questions/51941580/trying-to-use-ar-js-to-display-jpeg-image-and-only-when-a-button-is-clicked
 
 
+Animation:
+https://sodocumentation.net/aframe/topic/10071/animation---a-animation-
+https://stackoverflow.com/questions/47017960/a-frame-animation-to-value-and-back
+https://aframe.io/docs/1.0.0/components/animation.html
+
+
 Animations and cursor visual feedback:
 https://codepen.io/Absulit/pen/WEKjqm?editors=1000
 

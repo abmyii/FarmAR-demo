@@ -20,7 +20,9 @@
             <a-marker emitevents="true" id="logo-marker" type="pattern"
                 url="markers/pattern-marker.patt" cursor="rayOrigin: mouse"
                 markerhandler>
-                <a-image id="test" src="#indicator" position="0 0 -1" rotation="-90 0 0" opacity="1" shader="standard" width="1" height="1.5" scale="2 2" animation="property: position; to: 0 0 -3; direction: alternate; easing: linear; loop: true"></a-image>
+                <a-entity animation='property: position; dur: 2000; from: 0 0 -1; to: 0 0 -3; dir: alternate; easing: linear; loop: true;'>
+                    <a-image id="indicator" src="#indicator" position="0 0 -1" rotation="-90 0 0" opacity="1" shader="standard" width="1" height="1.5" scale="2 2"></a-image>
+                </a-entity>
             </a-marker>
 
             <a-entity id='userCamera' camera>
